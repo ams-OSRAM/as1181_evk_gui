@@ -1,4 +1,4 @@
-# AS1181
+# AS1181 LED/VCSEL driver with enhanced safety features
 AS1181 is an 8-channel highly integrated self-contained LED/VCSEL driver for near to eye applications such as Augmented Reality (AR) and Virtual Reality (VR) glasses. The device integrates extended safety monitoring functions to ensure eye safe operation. These safety monitors include LED short detection, LED open detection, LED overcurrent protection, LED on time monitor as well as temperature shutdown and a built-in-self test (BIST).
 The device is configurable via a serial wire interface (I²C or I3C) with interrupt and provides two Strobe/PWM inputs to synchronize illumination with up to two external cameras for binocular eye tracking systems.
 The LED current is individually programmable per channel, and it can drive up to 2 IR LEDs per current sink with a minimum ON time of 10μs and a maximum current of 66mA per channel.
