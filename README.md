@@ -38,7 +38,7 @@ AS1181 has several modes to trigger illumination:
 -     Note: For more details please refer to the AS1181 Datasheet
 
 ## Force Error Detection
-- AS1181 provides several safety checks. Some can be simulated by removing Jumper “OPEN” below or setting Jumper “SHORT”. This simulates OPEN or SHORTED LED on channel 0.
+- AS1181 provides several safety checks. Some can be simulated by removing Jumper “OPEN” or setting Jumper “SHORT”. This simulates OPEN or SHORTED LED on channel 0.
 As soon as the Jumper is removed during active ILLUMINATION the System State is changing to “FAULT”, D2 illuminates “RED” and respective Interrupts are set.
 - It is also possible to simulate a too long illumination/exposure time by configuring the PWM generators in such a way that the PWM ON time is larger than TD_ILLUM_MAX default setting. 
 -     Note: TD_ILLUM_MAX default setting is 4ms. Configuration can be changed by accessing the register map tab
