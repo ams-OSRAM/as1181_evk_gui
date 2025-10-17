@@ -9,7 +9,7 @@ The main purpose of this platform is to provide customers tools to evaluate AS11
 This platform includes a simple PC GUI software to allow configuration of the device and test different modes.
 On the bottom side of the PCB a “seeed studio ESP32” MCU is placed to act as bridge between USB and I2C/I3C of AS1181.
 
-![AS1181_Demoboard](docs/img/AS1181_Demoboard.png)
+![AS1181_Demoboard](docs/img/AS1181_WL_DEM_DB.png)
 ## How to get started?
 
 - Launch AS1181 demo_app.exe from downloaded repository
